@@ -1,0 +1,102 @@
+.navbar{
+    height: 50px;
+    border-bottom: 0.5px solid #E4E7ED;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #555;
+
+    .wrapper{
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .time p:nth-child(1){
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 29px;
+            letter-spacing: 0.016em;
+            color: #00261C;
+        }
+
+        .time p:nth-child(2){
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 16px;
+            letter-spacing: -0.02em;
+            color: #707EAE;
+        }
+    }
+    .search{
+        display: flex;
+        align-items: center;
+        position: relative;
+
+        .icon{
+            position: absolute;
+            opacity: 0.9;
+            width: 29px;
+            height: 33px;
+        }
+        input{
+            width: 400px;
+            padding: 8px 12px 8px 35px;
+            font-size: 14px;
+            background: #FFFFFF;
+            border-radius: 8px;
+            border: none;
+
+            &:focus-visible{
+                outline: none;
+            }
+        }
+    }
+    .info{
+        display: flex;
+        align-items: center;
+
+        .notification{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+
+            .icon{
+                background: #FFFFFF;
+                box-shadow: 0px 4px 16px rgba(0, 153, 112, 0.08);
+                border-radius: 8px;
+                padding: 5px;
+                position: absolute;
+            }
+
+            .counter{
+                width: 8px;
+                height: 8px;
+                background-color: #F23985;
+                border-radius: 50%;
+                position: relative;
+                top: -4px;
+                right: -5px;
+            }
+        }
+        .person{
+            display: flex;
+            align-items: center;
+
+            img{
+                width: 40px;
+            }
+
+            p{
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 19px;
+                letter-spacing: 0.016em;
+                color: #00261C;
+                padding: 0 9px 0 20px;
+            }
+        }
+    }
+}

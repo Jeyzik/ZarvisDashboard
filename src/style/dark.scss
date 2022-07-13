@@ -1,0 +1,125 @@
+.app.dark{
+    background-color: #111;
+    color: rgb(156, 156, 156);
+    .homeContainer{
+        background-color: #111;
+    }
+    .widget{
+        background-color: #111;
+    }
+    .featured{
+        background-color: #111;
+    }
+    .chart{
+        background-color: #111;
+    }
+    .table{
+        background-color: #111;
+    }
+    .team{
+        background-color: #111;
+        .tableCell{
+            color: grey;
+        }
+    }
+    .sidebar {
+        border-color: #333;
+        .top a .logo {
+            color: grey;
+        }
+        ul li{
+            color: grey;
+            transition: 0.3s;
+
+            &:hover{
+                color: #00DEA3;
+            }
+        }
+        .protect{
+            background-color: #000;
+            .text{
+                color: grey;
+            }
+            .rad{
+                background-color: #111;
+            }
+        }
+    }
+    .navbar {
+        border-color: #333;
+        .wrapper .time p:nth-child(1){
+            color: grey;
+        }
+        .info .person p {
+            color: grey;
+        }
+        .search input{
+            background-color: #111;
+            border: 1px solid grey;
+        }
+        .info .notification .icon{
+            background-color: #111;
+            color: grey;
+        }
+    }
+    .chart {
+        .center p span{
+            color: grey;
+        }
+        .top .title{
+            color: grey;
+        }
+    }
+    .featured{
+        .headerInfo .title{
+            color: grey;
+        }
+        .headerInfo .selectData .subMenu li span{
+            color: grey;
+        }
+    }
+    .chart {
+        .bottom .topCard .title{
+            color: #111;
+        }
+        .bottom .infoCard p{
+            color: #111;
+        }
+        .bottom .moreInfo .data p, .chart .bottom .moreInfo .cvv p{
+            color: #111;
+        }
+    }
+
+    hr{
+        border-color: #333;
+    }
+
+    .datatable{
+        .datagrid{
+            color: grey;
+            border: none;
+
+            .viewButton, 
+            .deleteButton,
+            .cellWithStatus{
+                color: grey;
+                border: none;
+            }
+        }
+    }
+
+    input{
+        background-color: transparent;
+    }
+    .chart .bottom .moreInfo .cvv p{
+        color: #111;
+    }
+    .team{
+        .title{
+            color: grey;
+        }
+        .status p{
+            color: grey;
+        }
+    }
+}

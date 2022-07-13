@@ -1,0 +1,51 @@
+.table{
+    flex: 5.5;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 16px;
+
+
+    .title{
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 0.016em;
+        color: #00261C;
+    }
+
+    .icon{
+        font-size: 18px;
+        padding: 5px;
+        border-radius: 5px;
+        width: 16px;
+        height: 16px;
+    }
+    .tableInfo{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 19px;
+        letter-spacing: 0.016em;
+        color: #707EAE;
+    }
+
+    .status{
+        &.Completed{
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: right;
+            letter-spacing: 0.016em;
+            color: #00DEA3;
+        }
+        &.Painding{
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: right;
+            letter-spacing: 0.016em;
+            color: #4318FF;
+        }
+    }
+}

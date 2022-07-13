@@ -1,0 +1,110 @@
+.chart{
+    flex: 1.55;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 16px;
+
+    .top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        .title{
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 28px;
+            letter-spacing: 0.016em;
+            color: #00261C;
+        }
+
+        img{
+            background-color: #5A55D2;
+            padding: 7px;
+            box-shadow: 0px 4px 16px rgba(90, 85, 210, 0.4);
+            border-radius: 8px;
+            transition: 0.3s;
+            cursor: pointer;
+
+            &:hover{
+                background-color: #100e49;
+            }
+        }
+        
+    }
+
+    .center{
+        padding: 30px 0;
+        p{
+            b{
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 28px;
+                letter-spacing: 0.016em;
+                color: #5A55D2;
+            }
+            span{
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 19px;
+                letter-spacing: 0.016em;
+                color: #00140E;
+            }
+        }
+        .balance{
+            font-weight: 700;
+            font-size: 34px;
+            line-height: 41px;
+            color: #5A55D2;
+        }
+    }
+    
+    .bottom{
+        background-color: #5A55D2;
+        box-shadow: 0px 4px 16px rgba(90, 85, 210, 0.4);
+        border-radius: 8px;
+        padding: 6px;
+
+
+        .topCard{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+
+            .title{
+                color: #fff;
+                font-weight: bold;
+            }
+            
+        }
+        .infoCard{
+            padding: 0 0 20px 15px;
+            p{
+                color: #fff;
+                font-weight: bold;
+            }
+        }
+
+        .moreInfo{
+            display: flex;
+            justify-content: space-around;
+
+            .data, .cvv{
+                p{
+                    color: #fff;
+                    font-size: 16px;
+                    text-transform: uppercase;
+
+                    &:nth-child(1){
+                        font-size: 7px;
+                    }
+                }
+                
+            }
+        }
+
+    }
+
+}

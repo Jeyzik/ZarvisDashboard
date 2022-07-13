@@ -1,0 +1,56 @@
+.featured{
+    flex: 5;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 16px;
+
+
+    .headerInfo{
+        display: flex;
+        justify-content: space-between;
+
+        .title{
+            margin-bottom: 20px;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 28px;
+            letter-spacing: 0.016em;
+            color: #00261C;
+        }
+
+        .selectData{
+
+            .subMenu{
+                display: flex;
+
+                li{
+                    list-style: none;
+                    padding: 10px;
+
+                    span{
+                        text-transform: uppercase;
+                        color: #000;
+                        border-radius: 12px;
+                        padding: 5px 7px;
+                        font-weight: 500;
+                        font-size: 12px;
+                        line-height: 20px;
+                        text-align: center;
+                        letter-spacing: -0.02em;
+                        border: 1px solid #AEB6CF;
+                        cursor: pointer;
+                        &:active{
+                            background-color: #00DEA3;
+                            color: #fff;
+                        }
+
+                    }
+                }
+            }
+        }
+
+    }
+    
+}
